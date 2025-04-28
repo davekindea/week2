@@ -21,7 +21,7 @@ except ModuleNotFoundError as e:
 
 query = "SELECT * FROM xdr_data;"  
 
-
+#load the data
 df = load_data_from_postgres(query)
 
 
